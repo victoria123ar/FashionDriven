@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: roboto;
+}
+
+.header{
+    width: 100vw;
+    height: 89px;
+
+    background-color: #404EED;
+
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.roupas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 300px;
+}
+
+.gola{
+    display: flex;
+    flex-direction: column;
+}
+
+.tecido{
+    padding-bottom: 50px;
+}
+
+.camisas{
+    display: flex;
+}
+
+.camisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 30px;
+}
+
+.imagem{
+    width: 100px;
+    height: 100px;
+
+    background-color: #F2F2F2;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #C4C4C4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.roupas h1{
+    font-size: 18px;
+}
+
+.roupas p{
+    font-size: 18px;
+}
+
+.titulo{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+input{
+    width: 447px;
+    height: 40px;
+
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    border: none
+}
+
+input::placeholder{
+    color: #818181;
+    font-size: 14px;
+}
+
+button{
+    width: 450px;
+    height: 40px;
+
+    background-color: #C4C4C4;
+    color: #FCFCFC;
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: none
+}
+
+.pesquisa{
+    width: 450px;
+
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pesquisa h1{
+    margin-bottom: 10px;
+}
+
+.botao{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.foto{
+    width: 700px;
+
+    background-color: #404EED;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    width: 607px;
+}
+
+.footer{
+    width: 100vw;
+    height: 342px;
+
+    background-color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer h1{
+    font-size: 24px;
+
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.pedidos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pedido{
+    width: 200px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.pedido p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.selecionado{
+    border: 3px solid #404EED;
+}
+
+.ativo{
+    background-color: #404EED;
+}
